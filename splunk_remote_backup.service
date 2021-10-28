@@ -1,0 +1,6 @@
+[Unit]
+Description=Backup Splunk hosts via sshfs+git
+
+[Service]
+ExecStart=/home/splunk/bin/splunk_backup.sh
+User=splunk
