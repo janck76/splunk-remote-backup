@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-declare -a hosts=("devsplunk0" "sh0" "clustermaster" "licensemaster" "hf0" "hf1")
+declare -a hosts=("devsplunk0" "sh0" "splunkcm.internbank.no" "licensemaster" "hf0" "hf1")
 
 LOGDIR="/opt/backup/remote/log"
 
